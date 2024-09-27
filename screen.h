@@ -15,6 +15,6 @@ void start_menu(void);
 void pause_menu(void);
 
 // Function to display map (grid) and the locations of all visible items, enemies in the grid.
-void show_map(char locations[], char grid[]);
+void show_map(char locations[], char grid[], int grid_size);
 
 #endif // SCREEN_H
